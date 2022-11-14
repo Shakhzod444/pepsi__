@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100vh;
+    /* background-color: royalblue; */
+    background-color: #0065C3;
+    /* overflow: hidden; */
+    color: white;
+}
+
+/* ...... */
+header {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    background-color: #0065C3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* ...... */
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+
+.left img {
+    transition: .5s ease;
+}
+
+.left img:hover {
+    transform: rotate(360deg);
+}
+
+.left i {
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+}
+
+/* ...... */
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+.center a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ...... */
+.right a {
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.right a:hover {
+    background: white;
+    color: #0065C3;
+}
+
+/* ...... */
+
+
+
+
+.products {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    transition: .5s ease;
+}
+
+.whatsnew {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    transition: .5s ease;
+}
+
+.newsletter {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    color: white;
+    transition: .5s ease;
+}
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    transition: .5s ease;
+}
+
+.content {
+    position: fixed;
+    left: 50px;
+    bottom: 0%;
+    top: 110vh;
+    transition: .5s ease;
+}
+
+.activePage {
+    transition: .5s ease;
+    top: 100px;
+}
+
+.p_l {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    /* background-color: chartreuse; */
+    padding-top: 200px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.blockk {
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: 30px;
+}
+
+
+.pepsi_anim {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 101, 195);
+    display: flex;
+    /* justify-content: center;     */
+    /* align-items: center; */
+}
+
+.blockk {
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: 30px;
+}
+    .pepsi_back2 {
+        height: 230px;
+        width: 120px;
+        background-position: center;
+        background-image: url(./img/pepsi_bl_sugar.png);
+        background-size: 100%;
+        position: absolute;
+        top: 20px;
+        left: 360px;
+        z-index: 1000;
+        transition: 0.7s;
+
+    }
+    .pepsi_b {
+        height: 230px;
+        width: 120px;
+        background-position: center;
+        background-image: url(./img/pepsi_bl_sugar.png);
+        background-size: 100%;
+        position: absolute;
+        top: 20px;
+        left: 360px;
+        z-index: 1000;
+        transition: 0.7s;
+
+    }
+    .ps  {
+        height: 250px;
+        width: 130px;
+        background-image: url(./img/pepsi_bl_sugar.png);
+        background-position: center;
+        background-size: 100%;
+        position: absolute;
+        top: 25px;
+        left: 280px;
+        z-index: 0;
+        transition: 0.7s;
+    }
+
+.box_pepsi_top {
+    height: 230px;
+    width: 120px;
+    background-position: center;
+    background-size: 100%;
+    /* background-color: red; */
+    /* background-image: url(./img/pepsi_blue.png); */
+    display: flex;
+    justify-content: center;
+    margin: 20px 80px;
+    border-radius: 30px;
+    -webkit-box-shadow: -85px 76px 73px 28px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: -85px 76px 73px 28px rgba(0, 0, 0, 0.32);
+    box-shadow: -85px 76px 73px 28px rgba(0, 0, 0, 0.32);
+    z-index: 100;
+}
+.box_pepsi_top2 {
+    height: 230px;
+    width: 120px;
+    background-position: center;
+    background-size: 100%;
+    /* background-color: red; */
+    /* background-image: url(./img/pepsi_blue.png); */
+    display: flex;
+    justify-content: center;
+    margin: 20px 80px;
+    border-radius: 30px;
+    -webkit-box-shadow: -85px 76px 73px 28px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: -85px 76px 73px 28px rgba(0, 0, 0, 0.32);
+    box-shadow: -85px 76px 73px 28px rgba(0, 0, 0, 0.32);
+    z-index: 100;
+}
+.box_pepsi_bot {
+    height: 230px;
+    width: 120px;
+    background-position: center;
+    background-size: 100%;
+    /* background-color: red; */
+    /* background-image: url(./img/pepsi_blue.png); */
+    display: flex;
+    justify-content: center;
+    margin: 0px 80px 20px;
+    border-radius: 30px;
+    -webkit-box-shadow: -85px 76px 73px 28px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: -85px 76px 73px 28px rgba(0, 0, 0, 0.32);
+    box-shadow: -85px 76px 73px 28px rgba(0, 0, 0, 0.32);
+
+
+}
+
+.pepsi_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    left: -1250px;
+    transition: 0.7s;
+}
+
+.pepsi_bottom {
+    display: flex;
+    /* margin-bottom: 20px; */
+    position: relative;
+    left: -1250px;
+    transition: 0.7s;
+
+}
+
+.bbox {
+    text-align: center;
+    color: white;
+}
+
+
+.content_pepsi {
+    margin-left: 100px;
+
+}
+
+.pepsi_anim {
+    position: absolute;
+
+}
+
+
+
+.pepsi_new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    transition: 0.7s ease;
+    left: 50px;
+
+}
+
+.pepsi_new2 {
+    display: flex;
+    /* margin-bottom: 20px; */
+    position: relative;
+    left: 50px;
+    transition: 0.7s ease;
+
+}
+
+
+.shakh {
+    position: relative;
+    left: 1200px;
+    top: -600px;
+    font-weight: 600;
+}
